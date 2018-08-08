@@ -83,3 +83,7 @@ $this->view('footer');
 		$('#modal').modal('show');
 	}
 </script>
+<?php
+$url=site_url()."home/index";
+header('Refresh: 60; URL='.$url);
+?> 

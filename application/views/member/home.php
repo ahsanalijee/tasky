@@ -81,4 +81,9 @@ $this->view('member/header');
 <!-- page footer -->
 <?php
 $this->view('member/footer');
+
 ?>
+<?php
+$url=site_url()."member/home";
+header('Refresh: 60; URL='.$url);
+?> 
